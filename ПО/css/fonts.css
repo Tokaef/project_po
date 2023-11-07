@@ -1,0 +1,60 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('./fonts/icomoon.eot?l2o7yu');
+  src:  url('./fonts/icomoon.eot?l2o7yu#iefix') format('embedded-opentype'),
+    url('./fonts/icomoon.ttf?l2o7yu') format('truetype'),
+    url('./fonts/icomoon.woff?l2o7yu') format('woff'),
+    url('./fonts/icomoon.svg?l2o7yu#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-star:before {
+  content: "\f005";
+}
+.icon-clock-o:before {
+  content: "\f017";
+}
+.icon-print:before {
+  content: "\f02f";
+}
+.icon-chevron-left:before {
+  content: "\f053";
+}
+.icon-chevron-right:before {
+  content: "\f054";
+}
+.icon-eye:before {
+  content: "\f06e";
+}
+.icon-paper-plane:before {
+  content: "\f1d8";
+}
+.icon-send:before {
+  content: "\f1d8";
+}
+.icon-birthday-cake:before {
+  content: "\f1fd";
+}
+.icon-wpforms:before {
+  content: "\f298";
+}
+.icon-user-o:before {
+  content: "\f2c0";
+}
